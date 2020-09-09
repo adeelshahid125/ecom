@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* display: flex; */
+
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    
+    margin: auto;
+    align-items: center;
+}
+.logo{
+    width: 190px;
+    cursor: pointer;
+}
+.cart{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 320px;
+}
+.menu{
+    display: flex;
+    padding-left: 150px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    font-size: 18px;
+    color: #232d60;
+   margin: 0px 30px;
+   text-decoration: none;
+}
+.content h1{
+    font-size: 60px;
+    color: #232d60;
+    font-weight: 600px;
+    margin-top: 40px;
+    margin-bottom: 22px;
+
+}
+.content p{
+    font-size: 20px;
+    color: #6a7199;  
+    /* display: flex; */
+
+}
+.content {
+    margin-top: 5%;  
+    margin-left: 10%;
+    /* display: flex; */
+
+}
+.btn{
+    display: inline-block;
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    box-sizing: border-box;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.lefta{
+    margin-top: 40px;
+    height: 40px;
+    margin-right: 22px;
+    cursor: pointer;
+}
+.rightta{
+    margin-top: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.arrow{
+    margin-left: 20%;
+}
+.feature{
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+.social{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -90px;
+    bottom: 199px;
+}
+.social a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #6a7199;
+    margin: 0px 20px;
+}
